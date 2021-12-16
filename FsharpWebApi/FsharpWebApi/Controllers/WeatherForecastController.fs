@@ -29,10 +29,5 @@ type WeatherForecastController (logger : ILogger<WeatherForecastController>) =
 
     [<HttpGet>]
     member _.Get() =
-        let rng = System.Random()
-        [|
-            for index in 0..4 ->
-                { Date = DateTime.Now.AddDays(float index)
-                  TemperatureC = rng.Next(-20,55)
-                  Summary = summaries.[rng.Next(summaries.Length)] }
-        |]
+        let values = [|"Hello"; "World"; "First F# ASP.NET core web API!"|]
+        ActionResult<string[]>(values)
