@@ -118,11 +118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pattro01\\code\\fsharp\\fsharp-for-fun-and-profit\\FsharpWebApi\\FsharpWebApi\\FsharpWebApi.fsproj",
-      "projectName": "FsharpWebApi",
-      "projectPath": "C:\\Users\\pattro01\\code\\fsharp\\fsharp-for-fun-and-profit\\FsharpWebApi\\FsharpWebApi\\FsharpWebApi.fsproj",
+      "projectUniqueName": "C:\\Users\\pattro01\\code\\fsharp\\fsharp-for-fun-and-profit\\AlgorithmsFsharp\\AlgorithmsFsharp\\AlgorithmsFsharp.fsproj",
+      "projectName": "AlgorithmsFsharp",
+      "projectPath": "C:\\Users\\pattro01\\code\\fsharp\\fsharp-for-fun-and-profit\\AlgorithmsFsharp\\AlgorithmsFsharp\\AlgorithmsFsharp.fsproj",
       "packagesPath": "C:\\Users\\pattro01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pattro01\\code\\fsharp\\fsharp-for-fun-and-profit\\FsharpWebApi\\FsharpWebApi\\obj\\",
+      "outputPath": "C:\\Users\\pattro01\\code\\fsharp\\fsharp-for-fun-and-profit\\AlgorithmsFsharp\\AlgorithmsFsharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pattro01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,9 +164,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
