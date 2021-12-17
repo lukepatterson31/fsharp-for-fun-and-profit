@@ -1,4 +1,3 @@
-open System
 open System.IO
 open System.Text.Json
 
@@ -8,7 +7,7 @@ type Node = {
     Children: Node List
 }
 
-let serializer (node: Node) = JsonSerializer.Serialize(node, options=JsonSerializerOptions(WriteIndented=true))
+let serializer (node: Node) = JsonSerializer.Serialize(node, JsonSerializerOptions(WriteIndented=true))
 
 let writeToFile (strToWrite: string) =
     File.WriteAllText("../../../data/simpleNode.json", strToWrite)

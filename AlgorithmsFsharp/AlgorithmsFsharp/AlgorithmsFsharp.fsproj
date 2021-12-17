@@ -7,8 +7,7 @@
 
     <ItemGroup>
         <Compile Include="Program.fs" />
-        <Content Include="data\doubleNode.json" />
-        <Content Include="data\simpleNode.json" />
+        <Content Include="data\*.json" />
     </ItemGroup>
-
+       
 </Project>
