@@ -1,12 +1,26 @@
+open System
+open System.IO
+open System.Text.Json
 
+type Node = {
+    Name: string
+    Value: int
+    Children: Node List
+}
 
-// For more information see https://aka.ms/fsharp-console-apps
-let cardFace (card:int) :string =
-    let no = card % 13
-    if no = 1 then "Ace"
-    elif no = 0 then "King"
-    elif no = 12 then "Queen"
-    elif no = 11 then "Jack"
-    else string  no
-    
-printfn $"%s{cardFace 11}"    
+let serializer (node: Node) = JsonSerializer.Serialize(node, options=JsonSerializerOptions(WriteIndented=true))
+
+let writeToFile (strToWrite: string) =
+    File.WriteAllText("../../../data/simpleNode.json", strToWrite)
+        
+let root = {
+    Name="root"
+    Value=2
+    Children=[{
+        Name="Child"
+        Value=22
+        Children=[]
+    }]
+}
+
+root |> serializer |> writeToFile        

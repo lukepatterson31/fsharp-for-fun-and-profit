@@ -1,0 +1,17 @@
+{
+  "Name": "root",
+  "Value": 0,
+  "Children": [
+    {
+      "Name": "child1",
+      "Value": 10,
+      "Children": [
+        {
+          "Name": "grandchild1",
+          "Value": 11,
+          "Children": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "root",
+  "Value": 2,
+  "Children": [
+    {
+      "Name": "Child",
+      "Value": 22,
+      "Children": []
+    }
+  ]
+}

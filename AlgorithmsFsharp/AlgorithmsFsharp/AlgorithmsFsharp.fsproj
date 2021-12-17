@@ -6,7 +6,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Program.fs"/>
+        <Compile Include="Program.fs" />
+        <Content Include="data\sample-corr.json" />
+        <Content Include="data\doubleNode.json" />
     </ItemGroup>
 
 </Project>
